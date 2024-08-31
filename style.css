@@ -1,0 +1,37 @@
+.noto-sans-tc{
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+      font-family: noto-sans-tc;
+      background-color: rgb(255, 254, 240);
+  }
+h2{
+      font-size: 35px;
+      font-weight: 350;
+      text-align: center;
+}
+  
+span{
+      position: relative;
+      font-size: 35px;
+      font-weight: 390;
+}
+  
+ img{
+    border-radius: 15%;
+}
+  
+a{
+      text-decoration: none;
+}
+ 
+table{
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+}
