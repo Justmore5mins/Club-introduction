@@ -13,10 +13,21 @@
   font-style: normal;
 }
 
+:root{
+  --dark-bg: #141414;
+  --dark-font: #FFFDF0;
+  --light-bg: #fffdf0
+  --light-font: #141414;
+}
 
 body {
   font-family:Arial, Helvetica, sans-serif;
   background-color: rgb(255, 254, 240);
+}
+
+.dark{
+  background-color: var(--dark-bg);
+  color: var(--dark-font)
 }
 
 h1 {
@@ -28,7 +39,7 @@ h1 {
 
 p {
   position: relative;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -40,8 +51,9 @@ img {
 }
 
 a{
-  text-decoration: none;
   font-size: 50px;
+  color: var(--dark-font);
+  border-radius: 50%;
 }
 
 .intro{
